@@ -194,6 +194,7 @@ npm start  # Starts development server with hot reload
 - Passwords are hashed using bcrypt
 - JWT tokens expire after 7 days
 - All todo routes are protected by authentication middleware
+- **Note**: For production use, consider adding rate limiting to prevent abuse (e.g., using `express-rate-limit`)
 
 ## License
 
